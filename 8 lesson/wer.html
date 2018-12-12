@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>JQ&BT</title>
+    </head>
+    <body>
+        <div class="text-left">Left</div>
+        <div class="text-center">Center</div>
+        <div class="text-right">Right</div>
+        
+        <button type="button" class="btn btn-default">Default</button>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        
+        <ul class="list-grond">
+            <li class="list-group-item">Plato</li>
+            <li class="list-group-item active">Konfuzius</li>
+            <li class="list-group-item">Socrates</li>
+            <li class="list-group-item">Voltaire</li>
+            <li class="list-group-item">Descartes</li>
+        </ul>
+        
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Start</h3>
+            </div>
+            <div class="panel-body">
+                <h2>Something</h2>
+            </div>
+        </div>
+        
+        <div id="windows" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    &times;
+                </button>
+                <h4 class="modal-title">Gde 69?</h4>
+            </div>
+            <div class="modal-body">
+                <p>1616161616161616161616161616161616161691616161616116161616161616161</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+        </div>
+        </div>
+        
+        <button type="button" id="launcher" class="btn btn-primary">Stealth</button>
+        
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        
+        <script>
+            $("#launcher").on("click", function() {
+                $("#windows").modal("show");
+            });
+        </script>
+    </body>
+</html>

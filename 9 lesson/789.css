@@ -1,0 +1,16 @@
+.outer {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.inner {
+    float: left;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.red { background-color: red}
+.blue { background-color: blue}
+.green { background-color: green}
+.black { background-color: black}

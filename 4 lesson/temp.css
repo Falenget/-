@@ -1,0 +1,45 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"] {
+    border-radius: 5px;
+    border: 1ps solid grey;
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.outer {
+    transition: transform 1s ease;
+}
+
+.outer:hover {
+    transform: scale(2);
+}
+
+button {
+    background-color: #4D4DFF;
+    opacity: 0.7;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#convert {
+    width: 25%;
+    margin-right: 10px;
+}
+
+.result {
+    display: flex;
+    margin: 10px 0;
+}

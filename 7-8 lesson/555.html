@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="222.css">
+        <title>JQ</title>
+    </head>
+    <body>
+        <div>
+            <ol id="list"></ol>
+            <input type="text" id="field">
+        </div>
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script>
+            $("#field").on("keydown", function (event) {
+                var item;
+                if(event.which == 13) {
+                    item = $("<li><li/>");
+                    item.html($(this).val());
+                    $(this).val("");
+                    item.on("click", function () {
+                        $(this).remove();
+                    });
+                    $("#list").append(item);
+                }
+            });
+        </script>
+    </body>
+</html>
