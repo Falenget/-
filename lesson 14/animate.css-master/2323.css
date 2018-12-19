@@ -1,11 +1,18 @@
 html, body {
     margin: 0;
+    height: 2000px;
 }
 
 body {
     height: 100%;
+    background-image: url(https://yandex.ru/images/search?pos=7&img_url=https%3A%2F%2Fw-dog.ru%2Fwallpapers%2F1%2F25%2F323135616960498.jpg&text=%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0+%D0%BD%D0%B5%D0%B1%D0%B0&rpt=simage)
 }
 
 h1 {
     font-family: 'Poiret One', serif;
+}
+
+header {
+    width: inherit;
+    height: 1000px;
 }
