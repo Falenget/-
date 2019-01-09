@@ -10,6 +10,11 @@ header {
     margin: 0;
     background-color: thistle;
     bottom: 80%;
+    outline: 2px solid #000;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0px;
 }
 
 #menu {
@@ -19,12 +24,43 @@ header {
     justify-content: space-around;
 }
 
-.p1 {
+div {
+    background-color: dodgerblue;
+    border: solid black 1px;
+}
+
+#test {
     display: flex;
-    flex-flow: row;
+    justify-content: space-around;
+    margin: 0;
 }
 
-#p1 {
-    
+#block1 {
+    padding: 15px;
 }
 
+img {
+    width: 600px;
+    height: 400px;
+}
+
+.p1 {
+    margin: 0;
+    outline: 2px solid #000;
+}
+
+#p32 {
+    width: 200px;
+    height: 200px;
+}
+
+h3 {
+    background-color: cornflowerblue;
+}
+
+.p43 {
+    background-color:dodgerblue; 
+}
+.p2, footer, .p3, .p4, .p6, .p7 {
+    outline: 2px solid #000;
+}
