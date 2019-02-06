@@ -4,7 +4,7 @@ var button = document.getElementById("find");
 button.addEventListener("click",function() {
     var text, words, dictionary = {};
 
-    text = textarea.nodeValue.replace(/[~А-Яа-яA-Za-z]/g, " ");
+    text = textarea.nodeValue.replace(/[^А-Яа-яA-Za-z]/g, " ");
     words=text.split(" ").filter(function(word) {
         return words.length > 4;
     }).map(function(word) {
